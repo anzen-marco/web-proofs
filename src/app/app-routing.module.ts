@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { ClampComponent } from './components/pages/clamp/clamp.component';
 import { BlurComponent } from './components/pages/blur/blur.component';
+import { ParticlesComponent } from './components/pages/particles/particles.component';
 
 const routes: Routes = [
   {
@@ -17,6 +18,10 @@ const routes: Routes = [
   {
     path: 'blur',
     component: BlurComponent,
+  },
+  {
+    path: 'particles',
+    component: ParticlesComponent,
   }
 ];
 
